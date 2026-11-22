@@ -1,12 +1,12 @@
 const BASE = import.meta.env.BASE_URL.replace(/\/+$/, '');
 
 /** Fallback hero image when no slide is configured. */
-export const HERO_IMAGE = `${BASE}/images/hero-products.jpg`;
+export const HERO_IMAGE = `${BASE}/images/hero-ritual.jpg`;
 
 /** Editorial visual used when settings hold no custom image. */
 export const FOUNDER_IMAGE = `${BASE}/images/atelier.jpg`;
 
-export const OG_IMAGE = `${BASE}/images/hero-products.jpg`;
+export const OG_IMAGE = `${BASE}/images/hero-ritual.jpg`;
 
 export const SITE_URL =
   (import.meta.env.VITE_PUBLIC_SITE_URL ?? '').trim() || 'http://localhost:5173';

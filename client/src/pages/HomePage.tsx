@@ -18,14 +18,14 @@ const COMBOS = [
     note: 'Cleanse · treat · protect',
     text: 'The trio behind the before-and-afters: a brightening wash, an active serum and a barrier cream, built to be used together rather than collected.',
     href: '/category/skin',
-    image: '/images/hero-review.jpg',
+    image: '/images/review-mumbai.jpg',
   },
   {
     name: 'The Viral Hair Combo',
     note: 'Scalp · strand · shine',
     text: 'A scalp-first routine for fall, thinning and dullness — wash, oil and mask, with nothing in it that strips the scalp to make hair look clean.',
     href: '/category/hair',
-    image: '/images/hero-products.jpg',
+    image: '/images/products-table.jpg',
   },
 ];
 

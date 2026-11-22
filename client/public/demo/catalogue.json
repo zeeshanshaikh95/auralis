@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T22:15:48.151Z",
+  "generatedAt": "2026-11-22T22:25:45.609Z",
   "settings": {
     "businessName": "AURALIS",
     "tagline": "Skin & hair care, made visible",
@@ -13,7 +13,8 @@
     "whatsappSingleProductTemplate": "Hi AURALIS! ✨\nI would like to order:\n• {{PRODUCT}}\n{{VARIANT_LINE}}{{QTY_LINE}}Price: {{PRICE}}\n\nPlease confirm the price and how to pay.",
     "heroSlides": [
       {
-        "imageUrl": "/images/hero-products.jpg",
+        "imageUrl": "/images/hero-ritual.jpg",
+        "videoUrl": "/video/hero-ritual.mp4",
         "eyebrow": "Skin & Hair · Made Visible",
         "headline": "Your aura,\namplified.",
         "subheadline": "Doctor-approved, steroid-free skin and hair care — the viral combos people photograph, formulated to be used every day.",
@@ -22,7 +23,8 @@
         "active": true
       },
       {
-        "imageUrl": "/images/hero-packing.jpg",
+        "imageUrl": "/images/hero-gift.jpg",
+        "videoUrl": "/video/hero-gift.mp4",
         "eyebrow": "Packed in Mumbai",
         "headline": "Every order,\na gift.",
         "subheadline": "Free shipping and a free gift on every parcel, despatched from our own studio — not a warehouse that has never met the formula.",
@@ -31,16 +33,18 @@
         "active": true
       },
       {
-        "imageUrl": "/images/hero-review.jpg",
-        "eyebrow": "1,00,000+ sold",
-        "headline": "Results people\ntext us about.",
-        "subheadline": "Real customers, filmed in daylight, before and after. Browse the walls of reviews from exhibitions across India.",
-        "ctaLabel": "Read their words",
-        "ctaHref": "/reviews",
+        "imageUrl": "/images/hero-serum.jpg",
+        "videoUrl": "/video/hero-serum.mp4",
+        "eyebrow": "Serum · Concentrated",
+        "headline": "One drop.\nA different morning.",
+        "subheadline": "One active at a time, at a strength you can keep up with — the serum at the centre of the skin routine.",
+        "ctaLabel": "Shop skin",
+        "ctaHref": "/category/skin",
         "active": true
       },
       {
         "imageUrl": "/images/atelier.jpg",
+        "videoUrl": "/video/hero-botanical.mp4",
         "eyebrow": "The formulation",
         "headline": "Botanical first.\nNever harsh.",
         "subheadline": "Pure, potent botanicals that strengthen the skin barrier and the scalp — no steroids, no shortcuts, no borrowed claims.",
@@ -80,8 +84,8 @@
         "slug": "combos"
       },
       "images": [
-        "/images/hero-products.jpg",
-        "/images/hero-review.jpg"
+        "/images/products-table.jpg",
+        "/images/review-mumbai.jpg"
       ],
       "variants": [
         {
@@ -122,7 +126,7 @@
         "slug": "combos"
       },
       "images": [
-        "/images/hero-products.jpg",
+        "/images/products-table.jpg",
         "/images/atelier.jpg"
       ],
       "variants": [
@@ -236,7 +240,7 @@
       },
       "images": [
         "/images/serum-texture.jpg",
-        "/images/hero-products.jpg"
+        "/images/products-table.jpg"
       ],
       "variants": [],
       "stockStatus": "in_stock",
@@ -397,7 +401,7 @@
         "slug": "hair"
       },
       "images": [
-        "/images/hero-products.jpg",
+        "/images/products-table.jpg",
         "/images/atelier.jpg"
       ],
       "variants": [
@@ -541,7 +545,7 @@
       },
       "images": [
         "/images/atelier.jpg",
-        "/images/hero-products.jpg"
+        "/images/products-table.jpg"
       ],
       "variants": [],
       "stockStatus": "in_stock",
@@ -584,7 +588,7 @@
       "name": "The Combos",
       "slug": "combos",
       "description": "The viral skin and hair combos, priced as a set and packed with a free gift — the way the house is known.",
-      "image": "/images/hero-products.jpg",
+      "image": "/images/products-table.jpg",
       "displayOrder": 3,
       "productCount": 3,
       "createdAt": "2026-01-01T09:00:00.000Z",
@@ -595,7 +599,7 @@
   "gallery": [
     {
       "_id": "d0000000000000000000001",
-      "image": "/images/hero-products.jpg",
+      "image": "/images/products-table.jpg",
       "caption": "The skin and hair combos, packed and ready for the Surat exhibition",
       "externalUrl": "https://www.instagram.com/_auralis.official_/",
       "displayOrder": 1,
@@ -605,7 +609,7 @@
     },
     {
       "_id": "d0000000000000000000002",
-      "image": "/images/hero-packing.jpg",
+      "image": "/images/parcels.jpg",
       "caption": "Every order leaves with a free gift and free shipping",
       "externalUrl": "https://www.instagram.com/_auralis.official_/",
       "displayOrder": 2,
@@ -615,7 +619,7 @@
     },
     {
       "_id": "d0000000000000000000003",
-      "image": "/images/hero-review.jpg",
+      "image": "/images/review-mumbai.jpg",
       "caption": "Mumbai customers, before and after",
       "externalUrl": "https://www.instagram.com/_auralis.official_/",
       "displayOrder": 3,

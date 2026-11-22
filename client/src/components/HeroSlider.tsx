@@ -7,7 +7,8 @@ import type { HeroSlide } from '@/types';
 
 const FALLBACK_SLIDES: HeroSlide[] = [
   {
-    imageUrl: '/images/hero-products.jpg',
+    imageUrl: '/images/hero-ritual.jpg',
+    videoUrl: '/video/hero-ritual.mp4',
     eyebrow: 'Skin & Hair · Made Visible',
     headline: 'Your aura,\namplified.',
     subheadline:
@@ -17,7 +18,8 @@ const FALLBACK_SLIDES: HeroSlide[] = [
     active: true,
   },
   {
-    imageUrl: '/images/hero-packing.jpg',
+    imageUrl: '/images/hero-gift.jpg',
+    videoUrl: '/video/hero-gift.mp4',
     eyebrow: 'Packed in Mumbai',
     headline: 'Every order,\na gift.',
     subheadline:
@@ -27,17 +29,19 @@ const FALLBACK_SLIDES: HeroSlide[] = [
     active: true,
   },
   {
-    imageUrl: '/images/hero-review.jpg',
-    eyebrow: '1,00,000+ sold',
-    headline: 'Results people\ntext us about.',
+    imageUrl: '/images/hero-serum.jpg',
+    videoUrl: '/video/hero-serum.mp4',
+    eyebrow: 'Serum · Concentrated',
+    headline: 'One drop.\nA different morning.',
     subheadline:
-      'Real customers, filmed in daylight, before and after. Browse the walls of reviews from exhibitions across India.',
-    ctaLabel: 'Read their words',
-    ctaHref: '/reviews',
+      'One active at a time, at a strength you can keep up with — the serum at the centre of the skin routine.',
+    ctaLabel: 'Shop skin',
+    ctaHref: '/category/skin',
     active: true,
   },
   {
     imageUrl: '/images/atelier.jpg',
+    videoUrl: '/video/hero-botanical.mp4',
     eyebrow: 'The formulation',
     headline: 'Botanical first.\nNever harsh.',
     subheadline:
@@ -79,6 +83,7 @@ export function HeroSlider() {
   const [paused, setPaused] = useState(false);
   const [progress, setProgress] = useState(0);
   const [tilt, setTilt] = useState({ x: 0, y: 0 });
+  const [motionOk, setMotionOk] = useState(true);
   const touchStart = useRef<number | null>(null);
   const sceneRef = useRef<HTMLDivElement>(null);
   const reduced = useRef(false);
@@ -90,6 +95,7 @@ export function HeroSlider() {
 
   useEffect(() => {
     reduced.current = prefersReducedMotion();
+    setMotionOk(!reduced.current);
   }, []);
 
   useEffect(() => {
@@ -303,6 +309,11 @@ export function HeroSlider() {
                         ? item.imageUrl
                         : assetUrl(item.imageUrl)
                       : '';
+                    const video = item.videoUrl
+                      ? item.videoUrl.startsWith('http')
+                        ? item.videoUrl
+                        : assetUrl(item.videoUrl)
+                      : '';
                     return (
                       <div
                         key={`${item.imageUrl}-${itemIndex}`}
@@ -311,7 +322,25 @@ export function HeroSlider() {
                           isActive ? 'opacity-100' : 'pointer-events-none opacity-0'
                         }`}
                       >
-                        {src ? (
+                        {video && isActive && motionOk ? (
+                          <video
+                            key={video}
+                            src={video}
+                            poster={src || undefined}
+                            autoPlay
+                            muted
+                            loop
+                            playsInline
+                            preload="metadata"
+                            onCanPlay={(event) => {
+                              void event.currentTarget.play().catch(() => {
+                                /* autoplay blocked — the poster still shows */
+                              });
+                            }}
+                            aria-label={item.headline?.replace(/\n/g, ' ') || 'AURALIS'}
+                            className="h-full w-full object-cover object-[center_40%]"
+                          />
+                        ) : src ? (
                           <img
                             src={src}
                             alt={item.headline?.replace(/\n/g, ' ') || 'AURALIS'}

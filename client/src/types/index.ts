@@ -76,6 +76,8 @@ export interface GalleryItem {
 
 export interface HeroSlide {
   imageUrl: string;
+  /** Optional looping video (mp4/webm); the image is used as its poster. */
+  videoUrl?: string;
   eyebrow: string;
   headline: string;
   subheadline: string;

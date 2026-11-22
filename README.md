@@ -130,11 +130,15 @@ npm run dev
 
 * **Wordmark** — a typographic lockup with an aura emblem (three brass arcs over a serif A in a
   slender arch), drawn in `client/src/components/Wordmark.tsx`. No stretched or recoloured artwork.
+* **Hero imagery & video** — the four hero slides use AI-generated, brand-matched stills
+  (`hero-ritual.jpg`, `hero-gift.jpg`, `hero-serum.jpg`, `atelier.jpg`) and four 6-second seamless
+  MP4 loops in `client/public/video/`. The hero plays the video for the active slide (poster = the
+  still), falls back to the still under `prefers-reduced-motion`, and Admin → Settings → Hero slider
+  accepts a video URL per slide.
 * **Photography** — the six real photographs in `client/public/images/` come from the brand's own
-  Instagram posts (product table, parcels, customer review, exhibitions, Diwali dispatch).
-  `atelier.jpg` and `serum-texture.jpg` are editorial still-life placeholders generated for this
-  build because Instagram does not serve its media to logged-out requests; replace them with the
-  brand's own product photography (or upload through Admin → Products) before launch.
+  Instagram posts (product table, parcels, customer review, exhibitions, Diwali dispatch) and are
+  used in product cards and the journal. `serum-texture.jpg` is an editorial still-life placeholder
+  generated for this build; replace it with the brand's own photography before launch.
 * **Palette** — bottle-green ground `#070C0A`, bone type `#F1E9DA`, molten brass `#C08D53`, dusty
   rose aura `#BC7A70`. Sharp 2–6px radii, brass hairlines, editorial serif (Fraunces) with geometric
   sans (Jost); the light porcelain system, arch frames and gold-on-white surfaces of the clinic builds

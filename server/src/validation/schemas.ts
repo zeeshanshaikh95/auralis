@@ -80,6 +80,7 @@ export const gallerySchema = z.object({
 
 export const heroSlideSchema = z.object({
   imageUrl: optionalUrl.default(''),
+  videoUrl: optionalUrl.default(''),
   eyebrow: z.string().trim().max(60).default(''),
   headline: z.string().trim().max(120).default(''),
   subheadline: z.string().trim().max(400).default(''),

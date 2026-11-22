@@ -122,7 +122,7 @@ export function AdminSettingsPage() {
 
       <Section
         title="Hero slider"
-        description="Slides run in order, automatically, and can be swiped. Each slide needs an image; copy is optional."
+        description="Slides run in order, automatically, and can be swiped. Each slide needs an image; a looping MP4 can be added on top of it as the poster-backed hero video. Copy is optional."
         actions={
           <button
             type="button"
@@ -131,6 +131,7 @@ export function AdminSettingsPage() {
                 ...slides,
                 {
                   imageUrl: '',
+                  videoUrl: '',
                   eyebrow: 'New edit',
                   headline: '',
                   subheadline: '',
@@ -206,6 +207,17 @@ export function AdminSettingsPage() {
                       update('heroSlides', next);
                     }}
                   />
+                  <Field label="Hero video (optional MP4)" className="sm:col-span-2">
+                    <TextInput
+                      value={slide.videoUrl ?? ''}
+                      placeholder="/video/hero-ritual.mp4 or https://…"
+                      onChange={(value) => {
+                        const next = [...slides];
+                        next[index] = { ...slide, videoUrl: value };
+                        update('heroSlides', next);
+                      }}
+                    />
+                  </Field>
                   <div className="space-y-3">
                     <Field label="Eyebrow">
                       <TextInput

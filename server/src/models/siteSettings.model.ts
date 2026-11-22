@@ -2,6 +2,7 @@ import mongoose, { Schema, model, type Model } from 'mongoose';
 
 export interface IHeroSlide {
   imageUrl: string;
+  videoUrl: string;
   eyebrow: string;
   headline: string;
   subheadline: string;
@@ -12,7 +13,8 @@ export interface IHeroSlide {
 
 export const HERO_SLIDES_DEFAULT: IHeroSlide[] = [
   {
-    imageUrl: '/images/hero-products.jpg',
+    imageUrl: '/images/hero-ritual.jpg',
+    videoUrl: '/video/hero-ritual.mp4',
     eyebrow: 'Skin & Hair · Made Visible',
     headline: 'Your aura,\namplified.',
     subheadline:
@@ -22,7 +24,8 @@ export const HERO_SLIDES_DEFAULT: IHeroSlide[] = [
     active: true,
   },
   {
-    imageUrl: '/images/hero-packing.jpg',
+    imageUrl: '/images/hero-gift.jpg',
+    videoUrl: '/video/hero-gift.mp4',
     eyebrow: 'Packed in Mumbai',
     headline: 'Every order,\na gift.',
     subheadline:
@@ -32,17 +35,19 @@ export const HERO_SLIDES_DEFAULT: IHeroSlide[] = [
     active: true,
   },
   {
-    imageUrl: '/images/hero-review.jpg',
-    eyebrow: '1,00,000+ sold',
-    headline: 'Results people\ntext us about.',
+    imageUrl: '/images/hero-serum.jpg',
+    videoUrl: '/video/hero-serum.mp4',
+    eyebrow: 'Serum · Concentrated',
+    headline: 'One drop.\nA different morning.',
     subheadline:
-      'Real customers, filmed in daylight, before and after. Browse the walls of reviews from exhibitions across India.',
-    ctaLabel: 'Read their words',
-    ctaHref: '/reviews',
+      'One active at a time, at a strength you can keep up with — the serum at the centre of the skin routine.',
+    ctaLabel: 'Shop skin',
+    ctaHref: '/category/skin',
     active: true,
   },
   {
     imageUrl: '/images/atelier.jpg',
+    videoUrl: '/video/hero-botanical.mp4',
     eyebrow: 'The formulation',
     headline: 'Botanical first.\nNever harsh.',
     subheadline:
@@ -98,6 +103,7 @@ export interface ISiteSettings {
 const slideSchema = new Schema<IHeroSlide>(
   {
     imageUrl: { type: String, default: '' },
+    videoUrl: { type: String, default: '' },
     eyebrow: { type: String, default: '' },
     headline: { type: String, default: '' },
     subheadline: { type: String, default: '' },
