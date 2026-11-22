@@ -5,7 +5,7 @@ const RAW_BASE =
 export const API_BASE = RAW_BASE.replace(/\/+$/, '');
 export const API_ORIGIN = new URL(API_BASE).origin;
 
-const TOKEN_KEY = 'cs.admin.token';
+const TOKEN_KEY = 'auralis.admin.token';
 
 export function getToken(): string | null {
   try {
