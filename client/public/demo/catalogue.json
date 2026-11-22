@@ -1,0 +1,677 @@
+{
+  "generatedAt": "2026-11-22T22:15:48.151Z",
+  "settings": {
+    "businessName": "AURALIS",
+    "tagline": "Skin & hair care, made visible",
+    "whatsappNumber": "",
+    "instagramUrl": "https://www.instagram.com/_auralis.official_/",
+    "instagramHandle": "_auralis.official_",
+    "email": "",
+    "city": "Mumbai, Maharashtra",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mumbai+Maharashtra",
+    "whatsappTemplate": "Hi AURALIS! ✨\nI would like to order:\n{{ITEMS}}\nEstimated total: {{TOTAL}}\n\nPlease confirm the price, the shipping and the free gift.",
+    "whatsappSingleProductTemplate": "Hi AURALIS! ✨\nI would like to order:\n• {{PRODUCT}}\n{{VARIANT_LINE}}{{QTY_LINE}}Price: {{PRICE}}\n\nPlease confirm the price and how to pay.",
+    "heroSlides": [
+      {
+        "imageUrl": "/images/hero-products.jpg",
+        "eyebrow": "Skin & Hair · Made Visible",
+        "headline": "Your aura,\namplified.",
+        "subheadline": "Doctor-approved, steroid-free skin and hair care — the viral combos people photograph, formulated to be used every day.",
+        "ctaLabel": "Shop the collection",
+        "ctaHref": "/services",
+        "active": true
+      },
+      {
+        "imageUrl": "/images/hero-packing.jpg",
+        "eyebrow": "Packed in Mumbai",
+        "headline": "Every order,\na gift.",
+        "subheadline": "Free shipping and a free gift on every parcel, despatched from our own studio — not a warehouse that has never met the formula.",
+        "ctaLabel": "See the combos",
+        "ctaHref": "/category/combos",
+        "active": true
+      },
+      {
+        "imageUrl": "/images/hero-review.jpg",
+        "eyebrow": "1,00,000+ sold",
+        "headline": "Results people\ntext us about.",
+        "subheadline": "Real customers, filmed in daylight, before and after. Browse the walls of reviews from exhibitions across India.",
+        "ctaLabel": "Read their words",
+        "ctaHref": "/reviews",
+        "active": true
+      },
+      {
+        "imageUrl": "/images/atelier.jpg",
+        "eyebrow": "The formulation",
+        "headline": "Botanical first.\nNever harsh.",
+        "subheadline": "Pure, potent botanicals that strengthen the skin barrier and the scalp — no steroids, no shortcuts, no borrowed claims.",
+        "ctaLabel": "Our story",
+        "ctaHref": "/about",
+        "active": true
+      }
+    ],
+    "about": {
+      "intro": "AURALIS is a skin and hair care house from Mumbai, built where old wisdom meets current formulation: doctor-approved, steroid-free routines that are gentle enough to keep up and effective enough to photograph.",
+      "story": "AURALIS began with two routines and a stubborn idea: that skin and hair care should be sold the way it is prescribed — after someone has actually looked at your skin, asked what you have tried, and told you what to leave alone.\n\nWe are a skin and hair care house, not a pharmacy and not a salon. The line stays short: a brightening routine, a scalp-first hair routine, and the combos that pair them. Everything is formulated without steroids or harsh synthetics, reviewed before it is sold, and packed by hand in Mumbai with a free gift in every parcel.\n\nMore than a lakh products have gone out — online, and from the exhibition tables we set up across Maharashtra and Gujarat, where you can meet the team, see the bottles and ask the questions you would ask a friend.\n\nWe do not believe in masking problems. We believe in solving them by honouring your skin and your scalp as they are.",
+      "founderImageUrl": "/images/atelier.jpg"
+    },
+    "announcements": {
+      "enabled": true,
+      "text": "Free shipping + a free gift on every order · Doctor-approved, steroid-free formulas · DM us for a routine"
+    },
+    "policies": {
+      "shipping": "Orders are packed by hand in Mumbai and despatched within 2–4 working days; shipping and a gift are included on every order. Prices are shared in a DM or at the exhibition counter, and are confirmed before a parcel is sent. Payment is by UPI or bank transfer.",
+      "returns": "Sealed, unopened products can be returned within 7 days of delivery; opened products cannot be resold, so please ask us before buying if you are unsure a formula suits you. If a parcel arrives damaged, message us with a photograph and we will replace it."
+    }
+  },
+  "products": [
+    {
+      "_id": "a0000000000000000000001",
+      "name": "Viral Skin Combo",
+      "slug": "viral-skin-combo",
+      "description": "The trio behind the before-and-afters the house is known for: a brightening wash, an active serum and a barrier cream, chosen so the steps work in order. Formulated without steroids or harsh synthetics, and reviewed before it is sold.\n\nTell us your skin type in a DM and we will confirm whether this is the right starting set for you.",
+      "price": null,
+      "compareAtPrice": null,
+      "fabric": "3-step set · wash, serum, cream",
+      "care": "Wash morning and night, serum at night only, cream to seal. Introduce one new step at a time.",
+      "colour": "Dullness, uneven tone and early pigmentation",
+      "category": {
+        "_id": "c0000000000000000000003",
+        "name": "The Combos",
+        "slug": "combos"
+      },
+      "images": [
+        "/images/hero-products.jpg",
+        "/images/hero-review.jpg"
+      ],
+      "variants": [
+        {
+          "name": "Full 3-step set",
+          "price": null,
+          "stockStatus": "in_stock"
+        },
+        {
+          "name": "Refill duo",
+          "price": null,
+          "stockStatus": "in_stock"
+        }
+      ],
+      "stockStatus": "in_stock",
+      "bestseller": true,
+      "featured": true,
+      "newArrival": false,
+      "seoTitle": "",
+      "seoDescription": "",
+      "displayOrder": 1,
+      "archived": false,
+      "createdAt": "2026-01-01T09:00:00.000Z",
+      "updatedAt": "2026-01-01T09:00:00.000Z"
+    },
+    {
+      "_id": "a0000000000000000000002",
+      "name": "Viral Hair Combo",
+      "slug": "viral-hair-combo",
+      "description": "A scalp-first routine for fall, thinning and dullness: a gentle wash, a rosemary and onion oil and a deep mask. Nothing in it strips the scalp to make the hair look clean for a day.\n\nThis is the set the house takes to exhibitions, and the one most often reordered.",
+      "price": null,
+      "compareAtPrice": null,
+      "fabric": "3-step set · wash, oil, mask",
+      "care": "Oil the scalp an hour before washing, twice a week. Mask once a week, mid-length to ends.",
+      "colour": "Hair fall, a dry or flaky scalp, and dull mid-lengths",
+      "category": {
+        "_id": "c0000000000000000000003",
+        "name": "The Combos",
+        "slug": "combos"
+      },
+      "images": [
+        "/images/hero-products.jpg",
+        "/images/atelier.jpg"
+      ],
+      "variants": [
+        {
+          "name": "Full 3-step set",
+          "price": null,
+          "stockStatus": "in_stock"
+        },
+        {
+          "name": "Oil + wash duo",
+          "price": null,
+          "stockStatus": "in_stock"
+        }
+      ],
+      "stockStatus": "in_stock",
+      "bestseller": true,
+      "featured": true,
+      "newArrival": false,
+      "seoTitle": "",
+      "seoDescription": "",
+      "displayOrder": 2,
+      "archived": false,
+      "createdAt": "2026-01-01T09:00:00.000Z",
+      "updatedAt": "2026-01-01T09:00:00.000Z"
+    },
+    {
+      "_id": "a0000000000000000000003",
+      "name": "Glow + Grow Duo",
+      "slug": "glow-and-grow-duo",
+      "description": "For the customer who wants both: the brightening serum for the face and the scalp oil for the hair, paired because they share the same logic — feed the barrier, do not attack it.",
+      "price": null,
+      "compareAtPrice": null,
+      "fabric": "2-piece set · serum + scalp oil",
+      "care": "Serum at night; oil on the scalp twice a week before washing.",
+      "colour": "Dull skin and a scalp that needs feeding",
+      "category": {
+        "_id": "c0000000000000000000003",
+        "name": "The Combos",
+        "slug": "combos"
+      },
+      "images": [
+        "/images/serum-texture.jpg"
+      ],
+      "variants": [],
+      "stockStatus": "in_stock",
+      "bestseller": false,
+      "featured": true,
+      "newArrival": true,
+      "seoTitle": "",
+      "seoDescription": "",
+      "displayOrder": 3,
+      "archived": false,
+      "createdAt": "2026-01-01T09:00:00.000Z",
+      "updatedAt": "2026-01-01T09:00:00.000Z"
+    },
+    {
+      "_id": "a0000000000000000000004",
+      "name": "Vitamin C Brightening Face Wash",
+      "slug": "vitamin-c-brightening-face-wash",
+      "description": "A low-foam daily wash for dull, uneven skin. Cleans without the tight feeling that sends most people reaching for a heavier cream an hour later.",
+      "price": null,
+      "compareAtPrice": null,
+      "fabric": "100 ml · daily use",
+      "care": "Massage onto damp skin for thirty seconds, rinse with cool water, follow with serum.",
+      "colour": "Dullness, tan and uneven tone",
+      "category": {
+        "_id": "c0000000000000000000001",
+        "name": "Skin",
+        "slug": "skin"
+      },
+      "images": [
+        "/images/serum-texture.jpg"
+      ],
+      "variants": [
+        {
+          "name": "100 ml",
+          "price": null,
+          "stockStatus": "in_stock"
+        },
+        {
+          "name": "200 ml",
+          "price": null,
+          "stockStatus": "in_stock"
+        }
+      ],
+      "stockStatus": "in_stock",
+      "bestseller": true,
+      "featured": true,
+      "newArrival": false,
+      "seoTitle": "",
+      "seoDescription": "",
+      "displayOrder": 4,
+      "archived": false,
+      "createdAt": "2026-01-01T09:00:00.000Z",
+      "updatedAt": "2026-01-01T09:00:00.000Z"
+    },
+    {
+      "_id": "a0000000000000000000005",
+      "name": "Kojic + Niacinamide Serum",
+      "slug": "kojic-niacinamide-serum",
+      "description": "The active in the skin combo: a light serum aimed at dark spots, post-blemish marks and the kind of unevenness that shows up in every photograph.",
+      "price": null,
+      "compareAtPrice": null,
+      "fabric": "30 ml · night use",
+      "care": "Three drops on clean skin at night. Sunscreen every morning without exception.",
+      "colour": "Dark spots, blemish marks and patchy tone",
+      "category": {
+        "_id": "c0000000000000000000001",
+        "name": "Skin",
+        "slug": "skin"
+      },
+      "images": [
+        "/images/serum-texture.jpg",
+        "/images/hero-products.jpg"
+      ],
+      "variants": [],
+      "stockStatus": "in_stock",
+      "bestseller": true,
+      "featured": true,
+      "newArrival": false,
+      "seoTitle": "",
+      "seoDescription": "",
+      "displayOrder": 5,
+      "archived": false,
+      "createdAt": "2026-01-01T09:00:00.000Z",
+      "updatedAt": "2026-01-01T09:00:00.000Z"
+    },
+    {
+      "_id": "a0000000000000000000006",
+      "name": "Barrier Repair Day Cream",
+      "slug": "barrier-repair-day-cream",
+      "description": "A quiet, unscented cream that holds the routine together — comfortable under make-up, rich enough for air-conditioned days, light enough for Mumbai.",
+      "price": null,
+      "compareAtPrice": null,
+      "fabric": "50 g · morning and night",
+      "care": "Press into damp skin after serum. Layer more on dry patches rather than switching products.",
+      "colour": "Dehydrated, reactive or combination skin",
+      "category": {
+        "_id": "c0000000000000000000001",
+        "name": "Skin",
+        "slug": "skin"
+      },
+      "images": [
+        "/images/atelier.jpg"
+      ],
+      "variants": [],
+      "stockStatus": "in_stock",
+      "bestseller": false,
+      "featured": false,
+      "newArrival": false,
+      "seoTitle": "",
+      "seoDescription": "",
+      "displayOrder": 6,
+      "archived": false,
+      "createdAt": "2026-01-01T09:00:00.000Z",
+      "updatedAt": "2026-01-01T09:00:00.000Z"
+    },
+    {
+      "_id": "a0000000000000000000007",
+      "name": "Acne Control Cleanser",
+      "slug": "acne-control-cleanser",
+      "description": "For skin that breaks out along the jaw and the back — a cleanser that clears oil without leaving the barrier raw. Best used as the only active step until the skin settles.",
+      "price": null,
+      "compareAtPrice": null,
+      "fabric": "100 ml · daily use",
+      "care": "Once a day to start. If the skin feels tight, alternate mornings.",
+      "colour": "Oily, congested and breakout-prone skin",
+      "category": {
+        "_id": "c0000000000000000000001",
+        "name": "Skin",
+        "slug": "skin"
+      },
+      "images": [
+        "/images/serum-texture.jpg"
+      ],
+      "variants": [
+        {
+          "name": "100 ml",
+          "price": null,
+          "stockStatus": "in_stock"
+        },
+        {
+          "name": "200 ml",
+          "price": null,
+          "stockStatus": "in_stock"
+        }
+      ],
+      "stockStatus": "in_stock",
+      "bestseller": false,
+      "featured": false,
+      "newArrival": true,
+      "seoTitle": "",
+      "seoDescription": "",
+      "displayOrder": 7,
+      "archived": false,
+      "createdAt": "2026-01-01T09:00:00.000Z",
+      "updatedAt": "2026-01-01T09:00:00.000Z"
+    },
+    {
+      "_id": "a0000000000000000000008",
+      "name": "De-Tan & Polish Scrub",
+      "slug": "de-tan-polish-scrub",
+      "description": "A fine-grain polish for the face and body after a week in the sun — gentle enough for twice a week, and the step that makes the brightening routine look like it is working.",
+      "price": null,
+      "compareAtPrice": null,
+      "fabric": "100 g · twice weekly",
+      "care": "Use on damp skin, never on active breakouts, and follow with the day cream.",
+      "colour": "Sun tan and rough texture",
+      "category": {
+        "_id": "c0000000000000000000001",
+        "name": "Skin",
+        "slug": "skin"
+      },
+      "images": [
+        "/images/atelier.jpg"
+      ],
+      "variants": [],
+      "stockStatus": "in_stock",
+      "bestseller": false,
+      "featured": false,
+      "newArrival": false,
+      "seoTitle": "",
+      "seoDescription": "",
+      "displayOrder": 8,
+      "archived": false,
+      "createdAt": "2026-01-01T09:00:00.000Z",
+      "updatedAt": "2026-01-01T09:00:00.000Z"
+    },
+    {
+      "_id": "a0000000000000000000009",
+      "name": "Under-Eye Caffeine Gel",
+      "slug": "under-eye-caffeine-gel",
+      "description": "A cooling gel for the mornings after a late dispatch night — de-puffs, and sits well under concealer without rolling.",
+      "price": null,
+      "compareAtPrice": null,
+      "fabric": "15 ml · morning",
+      "care": "Tap a grain of rice under each eye, pat — do not rub.",
+      "colour": "Puffiness and tired-looking eyes",
+      "category": {
+        "_id": "c0000000000000000000001",
+        "name": "Skin",
+        "slug": "skin"
+      },
+      "images": [
+        "/images/serum-texture.jpg"
+      ],
+      "variants": [],
+      "stockStatus": "in_stock",
+      "bestseller": false,
+      "featured": false,
+      "newArrival": true,
+      "seoTitle": "",
+      "seoDescription": "",
+      "displayOrder": 9,
+      "archived": false,
+      "createdAt": "2026-01-01T09:00:00.000Z",
+      "updatedAt": "2026-01-01T09:00:00.000Z"
+    },
+    {
+      "_id": "a0000000000000000000010",
+      "name": "Rosemary & Onion Hair Oil",
+      "slug": "rosemary-onion-hair-oil",
+      "description": "The oil in the hair combo: rosemary and onion, light enough to wash out in one go, made for the scalp rather than the ends. The step people skip and then wonder why the shampoo did nothing.",
+      "price": null,
+      "compareAtPrice": null,
+      "fabric": "100 ml · twice weekly",
+      "care": "Section the hair, oil the scalp, leave an hour, wash with the anti-hairfall shampoo.",
+      "colour": "Hair fall, thinning partings and a dry scalp",
+      "category": {
+        "_id": "c0000000000000000000002",
+        "name": "Hair",
+        "slug": "hair"
+      },
+      "images": [
+        "/images/hero-products.jpg",
+        "/images/atelier.jpg"
+      ],
+      "variants": [
+        {
+          "name": "100 ml",
+          "price": null,
+          "stockStatus": "in_stock"
+        },
+        {
+          "name": "200 ml",
+          "price": null,
+          "stockStatus": "in_stock"
+        }
+      ],
+      "stockStatus": "in_stock",
+      "bestseller": true,
+      "featured": true,
+      "newArrival": false,
+      "seoTitle": "",
+      "seoDescription": "",
+      "displayOrder": 10,
+      "archived": false,
+      "createdAt": "2026-01-01T09:00:00.000Z",
+      "updatedAt": "2026-01-01T09:00:00.000Z"
+    },
+    {
+      "_id": "a0000000000000000000011",
+      "name": "Anti-Hairfall Shampoo",
+      "slug": "anti-hairfall-shampoo",
+      "description": "A sulphate-free wash that cleans an oiled scalp properly without the squeak. The pair to the rosemary oil, and the reason the routine is worth following in order.",
+      "price": null,
+      "compareAtPrice": null,
+      "fabric": "200 ml · two washes a week",
+      "care": "Double cleanse when the scalp is oiled. Rinse cool, and do not pile the hair on top of the head.",
+      "colour": "Hair fall and an oily scalp",
+      "category": {
+        "_id": "c0000000000000000000002",
+        "name": "Hair",
+        "slug": "hair"
+      },
+      "images": [
+        "/images/atelier.jpg"
+      ],
+      "variants": [
+        {
+          "name": "200 ml",
+          "price": null,
+          "stockStatus": "in_stock"
+        },
+        {
+          "name": "300 ml",
+          "price": null,
+          "stockStatus": "in_stock"
+        }
+      ],
+      "stockStatus": "in_stock",
+      "bestseller": true,
+      "featured": true,
+      "newArrival": false,
+      "seoTitle": "",
+      "seoDescription": "",
+      "displayOrder": 11,
+      "archived": false,
+      "createdAt": "2026-01-01T09:00:00.000Z",
+      "updatedAt": "2026-01-01T09:00:00.000Z"
+    },
+    {
+      "_id": "a0000000000000000000012",
+      "name": "Silk Repair Conditioner",
+      "slug": "silk-repair-conditioner",
+      "description": "For mid-lengths and ends that have been coloured, straightened or simply lived in — slip without weight, so hair air-dries instead of being fought with.",
+      "price": null,
+      "compareAtPrice": null,
+      "fabric": "200 ml · every wash",
+      "care": "Mid-length to ends only. Rinse with cooler water than you washed with.",
+      "colour": "Dry, coloured or heat-styled hair",
+      "category": {
+        "_id": "c0000000000000000000002",
+        "name": "Hair",
+        "slug": "hair"
+      },
+      "images": [
+        "/images/atelier.jpg"
+      ],
+      "variants": [],
+      "stockStatus": "in_stock",
+      "bestseller": false,
+      "featured": false,
+      "newArrival": false,
+      "seoTitle": "",
+      "seoDescription": "",
+      "displayOrder": 12,
+      "archived": false,
+      "createdAt": "2026-01-01T09:00:00.000Z",
+      "updatedAt": "2026-01-01T09:00:00.000Z"
+    },
+    {
+      "_id": "a0000000000000000000013",
+      "name": "Scalp Detox Serum",
+      "slug": "scalp-detox-serum",
+      "description": "A light leave-in for a scalp that flakes or itches under the oil — applied at the partings, night before wash day.",
+      "price": null,
+      "compareAtPrice": null,
+      "fabric": "50 ml · night before washing",
+      "care": "Apply to partings, massage for a minute, wash the next morning.",
+      "colour": "Flaking, itching and a congested scalp",
+      "category": {
+        "_id": "c0000000000000000000002",
+        "name": "Hair",
+        "slug": "hair"
+      },
+      "images": [
+        "/images/serum-texture.jpg"
+      ],
+      "variants": [],
+      "stockStatus": "in_stock",
+      "bestseller": false,
+      "featured": false,
+      "newArrival": true,
+      "seoTitle": "",
+      "seoDescription": "",
+      "displayOrder": 13,
+      "archived": false,
+      "createdAt": "2026-01-01T09:00:00.000Z",
+      "updatedAt": "2026-01-01T09:00:00.000Z"
+    },
+    {
+      "_id": "a0000000000000000000014",
+      "name": "Deep Repair Hair Mask",
+      "slug": "deep-repair-hair-mask",
+      "description": "The mask in the hair combo: ten minutes, once a week, and the difference is in how the hair dries rather than how it feels in the shower.",
+      "price": null,
+      "compareAtPrice": null,
+      "fabric": "200 g · weekly",
+      "care": "After conditioner, mid-length to ends, ten minutes, rinse cool.",
+      "colour": "Frizz, breakage and dull ends",
+      "category": {
+        "_id": "c0000000000000000000002",
+        "name": "Hair",
+        "slug": "hair"
+      },
+      "images": [
+        "/images/atelier.jpg",
+        "/images/hero-products.jpg"
+      ],
+      "variants": [],
+      "stockStatus": "in_stock",
+      "bestseller": false,
+      "featured": true,
+      "newArrival": false,
+      "seoTitle": "",
+      "seoDescription": "",
+      "displayOrder": 14,
+      "archived": false,
+      "createdAt": "2026-01-01T09:00:00.000Z",
+      "updatedAt": "2026-01-01T09:00:00.000Z"
+    }
+  ],
+  "categories": [
+    {
+      "_id": "c0000000000000000000001",
+      "name": "Skin",
+      "slug": "skin",
+      "description": "Brightening, breakouts and barrier care — a short routine built around one active at a time, never a shelf of bottles.",
+      "image": "/images/serum-texture.jpg",
+      "displayOrder": 1,
+      "productCount": 6,
+      "createdAt": "2026-01-01T09:00:00.000Z",
+      "updatedAt": "2026-01-01T09:00:00.000Z"
+    },
+    {
+      "_id": "c0000000000000000000002",
+      "name": "Hair",
+      "slug": "hair",
+      "description": "Scalp first: fall, thinning and dullness handled with oils, a gentle wash and a mask that does not strip.",
+      "image": "/images/atelier.jpg",
+      "displayOrder": 2,
+      "productCount": 5,
+      "createdAt": "2026-01-01T09:00:00.000Z",
+      "updatedAt": "2026-01-01T09:00:00.000Z"
+    },
+    {
+      "_id": "c0000000000000000000003",
+      "name": "The Combos",
+      "slug": "combos",
+      "description": "The viral skin and hair combos, priced as a set and packed with a free gift — the way the house is known.",
+      "image": "/images/hero-products.jpg",
+      "displayOrder": 3,
+      "productCount": 3,
+      "createdAt": "2026-01-01T09:00:00.000Z",
+      "updatedAt": "2026-01-01T09:00:00.000Z"
+    }
+  ],
+  "reviews": [],
+  "gallery": [
+    {
+      "_id": "d0000000000000000000001",
+      "image": "/images/hero-products.jpg",
+      "caption": "The skin and hair combos, packed and ready for the Surat exhibition",
+      "externalUrl": "https://www.instagram.com/_auralis.official_/",
+      "displayOrder": 1,
+      "active": true,
+      "createdAt": "2026-01-01T09:00:00.000Z",
+      "updatedAt": "2026-01-01T09:00:00.000Z"
+    },
+    {
+      "_id": "d0000000000000000000002",
+      "image": "/images/hero-packing.jpg",
+      "caption": "Every order leaves with a free gift and free shipping",
+      "externalUrl": "https://www.instagram.com/_auralis.official_/",
+      "displayOrder": 2,
+      "active": true,
+      "createdAt": "2026-01-01T09:00:00.000Z",
+      "updatedAt": "2026-01-01T09:00:00.000Z"
+    },
+    {
+      "_id": "d0000000000000000000003",
+      "image": "/images/hero-review.jpg",
+      "caption": "Mumbai customers, before and after",
+      "externalUrl": "https://www.instagram.com/_auralis.official_/",
+      "displayOrder": 3,
+      "active": true,
+      "createdAt": "2026-01-01T09:00:00.000Z",
+      "updatedAt": "2026-01-01T09:00:00.000Z"
+    },
+    {
+      "_id": "d0000000000000000000004",
+      "image": "/images/exhibition-pune.jpg",
+      "caption": "Pune exhibition — 31 October and 1 November",
+      "externalUrl": "https://www.instagram.com/_auralis.official_/",
+      "displayOrder": 4,
+      "active": true,
+      "createdAt": "2026-01-01T09:00:00.000Z",
+      "updatedAt": "2026-01-01T09:00:00.000Z"
+    },
+    {
+      "_id": "d0000000000000000000005",
+      "image": "/images/exhibition-mumbai.jpg",
+      "caption": "Exhibition day in Mumbai",
+      "externalUrl": "https://www.instagram.com/_auralis.official_/",
+      "displayOrder": 5,
+      "active": true,
+      "createdAt": "2026-01-01T09:00:00.000Z",
+      "updatedAt": "2026-01-01T09:00:00.000Z"
+    },
+    {
+      "_id": "d0000000000000000000006",
+      "image": "/images/serum-texture.jpg",
+      "caption": "The serum, close up",
+      "externalUrl": "https://www.instagram.com/_auralis.official_/",
+      "displayOrder": 6,
+      "active": true,
+      "createdAt": "2026-01-01T09:00:00.000Z",
+      "updatedAt": "2026-01-01T09:00:00.000Z"
+    },
+    {
+      "_id": "d0000000000000000000007",
+      "image": "/images/atelier.jpg",
+      "caption": "Formulated with botanicals, never with steroids",
+      "externalUrl": "https://www.instagram.com/_auralis.official_/",
+      "displayOrder": 7,
+      "active": true,
+      "createdAt": "2026-01-01T09:00:00.000Z",
+      "updatedAt": "2026-01-01T09:00:00.000Z"
+    },
+    {
+      "_id": "d0000000000000000000008",
+      "image": "/images/offer-diwali.jpg",
+      "caption": "Diwali dispatch — free gifts on every order",
+      "externalUrl": "https://www.instagram.com/_auralis.official_/",
+      "displayOrder": 8,
+      "active": true,
+      "createdAt": "2026-01-01T09:00:00.000Z",
+      "updatedAt": "2026-01-01T09:00:00.000Z"
+    }
+  ]
+}
